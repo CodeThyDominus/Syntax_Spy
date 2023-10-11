@@ -13,3 +13,35 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# Android Studio
+*.iml
+.gradle
+/local.properties
+
+# Built application files
+/app/build/
+/capture/
+/output/
+/app/release/
+/app/debug/
+/app/src/main/assets
+/app/src/main/externalNativeBuild
+/app/src/main/generated
+/app/src/test/
+/app/src/androidTest/
+/app/build/reports/
+/app/build/test-results/
+/app/build/tmp/
+/app/libs/
+
+# Proguard files
+/proguard/
+
+# Intellij
+/.idea
+/.idea_modules
+
+# Keystore files
+/keystores/
