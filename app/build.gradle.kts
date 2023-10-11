@@ -4,12 +4,13 @@ plugins {
 
 android {
     namespace = "com.deucalion.syntaxspy"
-    compileSdk = 33
+    compileSdk = 34
+
 
     defaultConfig {
         applicationId = "com.deucalion.syntaxspy"
         minSdk = 16
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
