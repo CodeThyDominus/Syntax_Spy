@@ -1,6 +1,7 @@
 package com.deucalion.syntaxspy;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.airbnb.lottie.LottieAnimationView;
 
 import android.content.Intent;
 import android.os.Bundle;
