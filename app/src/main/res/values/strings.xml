@@ -2,4 +2,5 @@
     <string name="app_name">Syntax Spy</string>
     <string name="code_enter">Enter code</string>
     <string name="run_btn">Run</string>
+    <string name="main_line">Analyze Your Code</string>
 </resources>
