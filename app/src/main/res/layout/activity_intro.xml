@@ -6,28 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".IntroActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/logo"
-        android:layout_width="241dp"
-        android:layout_height="241dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:layout_marginBottom="272dp"
-        android:src="@drawable/syntax_logo"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_anim"
+        android:layout_width="334dp"
+        android:layout_height="424dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="176dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="112dp"
-        android:layout_marginRight="112dp"
-        android:layout_marginBottom="260dp"
         android:text="@string/main_line"
-        android:textColor="@color/slogan"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="125dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

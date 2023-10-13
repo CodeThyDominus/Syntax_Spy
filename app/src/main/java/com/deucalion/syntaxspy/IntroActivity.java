@@ -20,7 +20,7 @@ public class IntroActivity extends AppCompatActivity {
                 startActivity(iHome);
                 finish();
             }
-        }, 2000);
+        }, 3000);
     }
 
 }
