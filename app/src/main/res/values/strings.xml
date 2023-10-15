@@ -3,4 +3,16 @@
     <string name="code_enter">Enter code</string>
     <string name="run_btn">Run</string>
     <string name="main_line">Analyze Your Code</string>
+    <string name="setting">Setting</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="change_font">Change Font</string>
+    <string name="select_font">Select Font</string>
+    <string name="customize_report">Customize Report</string>
+    <string name="customize">Customize</string>
+    <string name="cache">Clear Cache</string>
+    <string name="sign_out">Sign Out</string>
+
+
+
 </resources>
