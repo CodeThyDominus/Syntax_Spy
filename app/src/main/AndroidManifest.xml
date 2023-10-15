@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         tools:targetApi="31">
-        <activity android:name=".IntroActivity"
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
             android:exported="true"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -24,6 +28,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
     </application>
+
 </manifest>
