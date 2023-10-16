@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Setting">
+    tools:context=".Setting"
+    android:background="@color/setting_bg">
 
     <!-- Title -->
     <TextView
