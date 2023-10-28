@@ -6,27 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Setting"
-    android:background="@color/setting_bg">
+    android:background="@color/bg_1">
 
-    <!-- Title -->
     <TextView
         android:id="@+id/settingsTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/setting"
-        android:textSize="24sp"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"/>
 
-    <!-- Change Theme -->
     <TextView
         android:id="@+id/themeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/change_theme"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/settingsTitle"
@@ -37,6 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/select_theme"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/themeTitle"
@@ -44,13 +44,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"/>
 
-    <!-- Change Font -->
     <TextView
         android:id="@+id/fontTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/change_font"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/changeThemeButton"
@@ -61,6 +60,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/select_font"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fontTitle"
@@ -68,13 +68,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"/>
 
-    <!-- Customize Report Format -->
     <TextView
         android:id="@+id/reportTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/customize_report"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/changeFontButton"
@@ -85,6 +84,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/customize"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reportTitle"
@@ -92,25 +92,39 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"/>
 
-    <!-- Clear Cache -->
+    <Button
+        android:id="@+id/history"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/customizeReportButton"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"/>
+
     <Button
         android:id="@+id/clearCacheButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/cache"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/customizeReportButton"
+        app:layout_constraintTop_toBottomOf="@+id/history"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"/>
 
-    <!-- Sign Out -->
+
     <Button
         android:id="@+id/signOutButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/sign_out"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/clearCacheButton"

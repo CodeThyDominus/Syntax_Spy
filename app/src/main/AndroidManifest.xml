@@ -13,11 +13,15 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".font"
+            android:exported="true"
+            android:theme="@style/AppTheme"/>
+        <activity
             android:name=".profile"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Setting"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".IntroActivity"
             android:exported="true"

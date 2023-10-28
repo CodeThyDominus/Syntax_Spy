@@ -12,6 +12,8 @@
     <string name="customize">Customize</string>
     <string name="cache">Clear Cache</string>
     <string name="sign_out">Sign Out</string>
+    <string name="gmail">Gmail Id</string>
+    <string name="history">History</string>
 
 
 </resources>
